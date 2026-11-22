@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #0b0b16; }
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #e8ddc0;
+}
+#stage { width: 1280px; max-width: 100vw; }
+#game {
+  display: block;
+  width: 1280px;
+  max-width: 100%;
+  height: auto;
+  background: #101024;
+  border: 2px solid #6b5a2e;
+  border-radius: 6px;
+  cursor: crosshair;
+}
+#caption {
+  margin: 10px 4px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #b9a86f;
+}
